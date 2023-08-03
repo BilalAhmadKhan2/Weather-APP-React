@@ -1,0 +1,12 @@
+.weather-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .weather-card .card-body {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px;
+    padding: 20px;
+  }
+  

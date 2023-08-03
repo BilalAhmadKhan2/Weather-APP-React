@@ -1,0 +1,11 @@
+.fontstyle {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .smaller-text {
+    font-size: 0.8em;
+  }

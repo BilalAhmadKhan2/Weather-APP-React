@@ -1,38 +1,46 @@
-.App {
+
+.temperature-card-left {
+  flex: 1;
+  border-right: 1px solid #000;
+  padding-right: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.temperature-card-right {
+  flex: 1;
+  padding-left: 10px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.other-cards {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.error-message {
+  width: 100%;
+  text-align: center; 
+  margin-top: 10px;
+  color: red; 
+}
+.load-message {
+  width: 100%;
+  text-align: center; 
+  margin-top: 10px;
+  color: rgb(30, 0, 255);
+}
+
+.forecast-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.App {
+  background-color: #00b4cc;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-bg-color {
+  background-color: #00b4cc;
 }
