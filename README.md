@@ -3,6 +3,7 @@ Screenshots:
 ![image](https://github.com/BilalAhmadKhan2/Weather-APP-React/assets/130067109/a8719720-2998-4ce7-a146-483385cdef97)
 
 
+Note for API key: API key can be obtained from weatherapi.com and paste the key in constants.js.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
